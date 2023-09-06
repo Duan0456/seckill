@@ -1,0 +1,433 @@
+16:53:14.434 [main] INFO  nuc.edu.seckill.SeckillAdminApplication - Starting SeckillAdminApplication on LAPTOP-I12KMJVD with PID 19504 (E:\javaWorkSpace\seckill-parent\seckill-admin\target\classes started by Lenovo in E:\javaWorkSpace\seckill-parent)
+16:53:14.438 [main] DEBUG nuc.edu.seckill.SeckillAdminApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+16:53:14.442 [main] INFO  nuc.edu.seckill.SeckillAdminApplication - No active profile set, falling back to default profiles: default
+16:53:15.248 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+16:53:15.256 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+16:53:15.256 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+16:53:15.260 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.37] using APR version [1.7.4].
+16:53:15.260 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+16:53:15.260 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:53:15.264 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1u  30 May 2023]
+16:53:15.476 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16:53:15.480 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:53:15.544 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+16:53:15.556 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+16:53:15.580 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+16:53:15.584 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class nuc.edu.seckill.model.Demo matches criteria [is assignable to Object]
+16:53:15.584 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class nuc.edu.seckill.model.SeckillAdmin matches criteria [is assignable to Object]
+16:53:15.584 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class nuc.edu.seckill.model.SeckillOrder matches criteria [is assignable to Object]
+16:53:15.584 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class nuc.edu.seckill.model.SeckillProducts matches criteria [is assignable to Object]
+16:53:15.584 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class nuc.edu.seckill.model.SeckillUser matches criteria [is assignable to Object]
+16:53:15.584 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class nuc.edu.seckill.model.http.UserReq$BaseUserInfo matches criteria [is assignable to Object]
+16:53:15.584 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class nuc.edu.seckill.model.http.UserReq$LoginUserInfo matches criteria [is assignable to Object]
+16:53:15.584 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class nuc.edu.seckill.model.http.UserReq matches criteria [is assignable to Object]
+16:53:15.584 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class nuc.edu.seckill.model.http.UserResp$BaseUserResp matches criteria [is assignable to Object]
+16:53:15.584 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class nuc.edu.seckill.model.http.UserResp matches criteria [is assignable to Object]
+16:53:15.704 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+16:53:15.708 [main] DEBUG io.lettuce.core.resource.DefaultClientResources - -Dio.netty.eventLoopThreads: 8
+16:53:15.716 [main] DEBUG io.lettuce.core.resource.DefaultEventLoopGroupProvider - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+16:53:15.728 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+16:53:15.728 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+16:53:15.732 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+16:53:15.732 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+16:53:15.732 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 8
+16:53:15.732 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+16:53:15.732 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+16:53:15.732 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+16:53:15.732 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+16:53:15.732 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+16:53:15.732 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+16:53:15.732 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+16:53:15.732 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+16:53:15.736 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\Lenovo\AppData\Local\Temp (java.io.tmpdir)
+16:53:15.736 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+16:53:15.736 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 3797417984 bytes
+16:53:15.736 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+16:53:15.736 [main] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+16:53:15.736 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+16:53:15.736 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3c69362a
+16:53:15.736 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+16:53:15.744 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+16:53:15.760 [main] DEBUG reactor.core.publisher.UnsafeSupport - Starting UnsafeSupport init in Java 1.8
+16:53:15.760 [main] DEBUG reactor.core.publisher.UnsafeSupport - Unsafe is available
+16:53:15.764 [main] DEBUG io.lettuce.core.resource.DefaultClientResources - LatencyUtils/HdrUtils are not available, metrics are disabled
+16:53:15.792 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+16:53:15.792 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+16:53:15.792 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+16:53:15.792 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+16:53:15.792 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+16:53:15.792 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+16:53:15.792 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+16:53:15.792 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+16:53:15.792 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+16:53:15.792 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+16:53:15.792 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+16:53:15.792 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+16:53:15.796 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+16:53:15.796 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+16:53:15.848 [main] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+16:53:15.848 [main] DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+16:53:15.848 [main] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+16:53:15.848 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+16:53:15.848 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+16:53:15.848 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+16:53:15.852 [main] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+16:53:15.852 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+16:53:15.852 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+16:53:15.852 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+16:53:15.852 [main] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+16:53:15.852 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+16:53:15.852 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+16:53:15.852 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+16:53:15.852 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+16:53:15.852 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+16:53:16.187 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+16:53:16.207 [main] INFO  nuc.edu.seckill.SeckillAdminApplication - Started SeckillAdminApplication in 2.117 seconds (JVM running for 2.973)
+16:53:23.080 [http-nio-8082-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:53:23.135 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+16:53:23.136 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+16:53:23.136 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+16:53:23.136 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+16:53:23.136 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+16:53:23.136 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+16:53:23.136 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+16:53:23.136 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+16:53:23.136 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+16:53:23.136 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+16:53:23.137 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+16:53:23.137 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."com.mysql.cj.jdbc.Driver"
+16:53:23.137 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+16:53:23.137 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+16:53:23.137 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+16:53:23.137 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+16:53:23.137 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+16:53:23.137 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:mysql://127.0.0.1:3306/miaosha?useSSL=true&charset=utf8mb4&serverTimezone=Hongkong
+16:53:23.137 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+16:53:23.137 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+16:53:23.137 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+16:53:23.137 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+16:53:23.137 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+16:53:23.137 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+16:53:23.137 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+16:53:23.138 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+16:53:23.138 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+16:53:23.138 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+16:53:23.138 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+16:53:23.138 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+16:53:23.138 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+16:53:23.138 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+16:53:23.138 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - username........................"root"
+16:53:23.138 [http-nio-8082-exec-1] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+16:53:23.138 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:53:23.206 [http-nio-8082-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:53:23.210 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+16:53:23.225 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+16:53:23.237 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 0
+16:53:23.240 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+16:53:23.241 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+16:53:23.242 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:01:25.029 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - ==>  Preparing: SELECT id, login_name, password, name, ip_range, create_time from seckill_admin where 1=1 
+17:01:25.030 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - ==> Parameters: 
+17:01:25.040 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - <==      Total: 0
+17:01:26.369 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:01:26.370 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:01:26.370 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 0
+17:01:26.371 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:01:26.371 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:01:26.372 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:01:29.590 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - ==>  Preparing: SELECT id, login_name, password, name, ip_range, create_time from seckill_admin where 1=1 
+17:01:29.591 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - ==> Parameters: 
+17:01:29.591 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - <==      Total: 0
+17:01:33.463 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:01:33.464 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:01:33.465 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 0
+17:01:33.465 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:01:33.465 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:01:33.466 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:01:37.345 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:01:37.345 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:01:37.346 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 0
+17:01:37.346 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:01:37.346 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:01:37.347 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:02:13.444 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 and product_period_key = ? 
+17:02:13.444 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list - ==> Parameters: 198(String)
+17:02:13.445 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list - <==      Total: 0
+17:02:13.445 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert - ==>  Preparing: INSERT INTO seckill_products ( id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+17:02:13.447 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert - ==> Parameters: null, 娄靖彬(String), 2(Integer), null, 2023-07-06 17:02:13.443(Timestamp), 0(Integer), 2023-07-06 17:01:00.052(Timestamp), null, 娄家老大(String), 2(Integer), null, 198(String)
+17:02:13.450 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert - <==    Updates: 1
+17:02:13.450 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert!selectKey - ==>  Preparing: select LAST_INSERT_ID() 
+17:02:13.450 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert!selectKey - ==> Parameters: 
+17:02:13.451 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert!selectKey - <==      Total: 1
+17:02:13.458 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:02:13.459 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:02:13.460 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 1
+17:02:13.461 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:02:13.461 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:02:13.463 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:24:15.839 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7e9f89d3: (connection has passed maxLifetime)
+17:24:15.843 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3165624b: (connection has passed maxLifetime)
+17:24:15.843 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@33b6a4a5: (connection has passed maxLifetime)
+17:24:15.843 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1e514b: (connection has passed maxLifetime)
+17:24:15.843 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4b27c911: (connection has passed maxLifetime)
+17:24:15.843 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@514a9d04: (connection has passed maxLifetime)
+17:24:15.843 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@575f9804: (connection has passed maxLifetime)
+17:24:15.847 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@25b90fad: (connection has passed maxLifetime)
+17:24:15.847 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5023254a: (connection has passed maxLifetime)
+17:24:15.847 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@550420f7: (connection has passed maxLifetime)
+17:25:32.385 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 and product_period_key = ? 
+17:25:32.387 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list - ==> Parameters: 10086(String)
+17:25:32.389 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list - <==      Total: 0
+17:25:32.389 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert - ==>  Preparing: INSERT INTO seckill_products ( id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+17:25:32.390 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert - ==> Parameters: null, 娄鹏(String), 2(Integer), null, 2023-07-06 17:25:32.384(Timestamp), 0(Integer), 2023-07-06 17:25:00.0(Timestamp), null, 娄靖彬plus(String), 2(Integer), null, 10086(String)
+17:25:32.391 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert - <==    Updates: 1
+17:25:32.391 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert!selectKey - ==>  Preparing: select LAST_INSERT_ID() 
+17:25:32.391 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert!selectKey - ==> Parameters: 
+17:25:32.392 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert!selectKey - <==      Total: 1
+17:25:32.396 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:25:32.397 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:25:32.398 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 2
+17:25:32.399 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:25:32.400 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:25:32.400 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:25:38.010 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 and name = ? limit ?, ? 
+17:25:38.011 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 娄(String), 0(Integer), 20(Integer)
+17:25:38.012 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 0
+17:25:38.012 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 and name = ? 
+17:25:38.012 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 娄(String)
+17:25:38.013 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:25:42.966 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 and name = ? limit ?, ? 
+17:25:42.967 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 娄靖彬(String), 0(Integer), 20(Integer)
+17:25:42.968 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 1
+17:25:42.968 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 and name = ? 
+17:25:42.968 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 娄靖彬(String)
+17:25:42.969 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:25:49.397 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:25:49.397 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:25:49.399 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 2
+17:25:49.399 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:25:49.399 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:25:49.400 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:25:56.235 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key FROM seckill_products WHERE id = ? 
+17:25:56.235 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==> Parameters: 1(Long)
+17:25:56.236 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - <==      Total: 1
+17:25:58.868 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:25:58.868 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:25:58.870 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 2
+17:25:58.870 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:25:58.870 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:25:58.871 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:26:00.071 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key FROM seckill_products WHERE id = ? 
+17:26:00.072 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==> Parameters: 1(Long)
+17:26:00.073 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - <==      Total: 1
+17:26:04.960 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key FROM seckill_products WHERE id = ? 
+17:26:04.960 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==> Parameters: 1(Long)
+17:26:04.961 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - <==      Total: 1
+17:26:04.963 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - ==>  Preparing: UPDATE seckill_products SET name = ?, count = ?, create_time = ?, is_deleted = ?, start_buy_time = ?, updated_time = ?, product_desc = ?, status = ?, product_period_key = ? WHERE id = ? 
+17:26:04.963 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - ==> Parameters: 娄靖彬(String), 2(Integer), 2023-07-06 17:02:13.0(Timestamp), 0(Integer), 2023-07-06 17:01:00.0(Timestamp), 2023-07-06 17:26:04.961(Timestamp), 娄家老大(String), 2(Integer), 198(String), 1(Long)
+17:26:04.966 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - <==    Updates: 1
+17:26:04.969 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:26:04.969 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:26:04.970 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 2
+17:26:04.970 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:26:04.970 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:26:04.972 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:26:07.242 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key FROM seckill_products WHERE id = ? 
+17:26:07.242 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==> Parameters: 1(Long)
+17:26:07.243 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - <==      Total: 1
+17:26:07.244 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - ==>  Preparing: UPDATE seckill_products SET name = ?, count = ?, create_time = ?, is_deleted = ?, start_buy_time = ?, updated_time = ?, product_desc = ?, status = ?, product_period_key = ? WHERE id = ? 
+17:26:07.245 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - ==> Parameters: 娄靖彬(String), 2(Integer), 2023-07-06 17:02:13.0(Timestamp), 0(Integer), 2023-07-06 17:01:00.0(Timestamp), 2023-07-06 17:26:07.244(Timestamp), 娄家老大(String), 1(Integer), 198(String), 1(Long)
+17:26:07.247 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - <==    Updates: 1
+17:26:07.250 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:26:07.250 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:26:07.253 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 2
+17:26:07.253 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:26:07.253 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:26:07.254 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:26:10.684 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key FROM seckill_products WHERE id = ? 
+17:26:10.684 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==> Parameters: 2(Long)
+17:26:10.685 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - <==      Total: 1
+17:26:10.686 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - ==>  Preparing: UPDATE seckill_products SET name = ?, count = ?, create_time = ?, is_deleted = ?, start_buy_time = ?, updated_time = ?, product_desc = ?, status = ?, product_period_key = ? WHERE id = ? 
+17:26:10.686 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - ==> Parameters: 娄鹏(String), 2(Integer), 2023-07-06 17:25:32.0(Timestamp), 0(Integer), 2023-07-06 17:25:00.0(Timestamp), 2023-07-06 17:26:10.685(Timestamp), 娄靖彬plus(String), 1(Integer), 10086(String), 2(Long)
+17:26:10.688 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - <==    Updates: 1
+17:26:10.691 [http-nio-8082-exec-10] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:26:10.691 [http-nio-8082-exec-10] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:26:10.692 [http-nio-8082-exec-10] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 2
+17:26:10.692 [http-nio-8082-exec-10] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:26:10.693 [http-nio-8082-exec-10] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:26:10.693 [http-nio-8082-exec-10] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:26:12.067 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key FROM seckill_products WHERE id = ? 
+17:26:12.067 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==> Parameters: 2(Long)
+17:26:12.068 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - <==      Total: 1
+17:26:12.068 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - ==>  Preparing: UPDATE seckill_products SET name = ?, count = ?, create_time = ?, is_deleted = ?, start_buy_time = ?, updated_time = ?, product_desc = ?, status = ?, product_period_key = ? WHERE id = ? 
+17:26:12.069 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - ==> Parameters: 娄鹏(String), 2(Integer), 2023-07-06 17:25:32.0(Timestamp), 0(Integer), 2023-07-06 17:25:00.0(Timestamp), 2023-07-06 17:26:12.068(Timestamp), 娄靖彬plus(String), 2(Integer), 10086(String), 2(Long)
+17:26:12.071 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - <==    Updates: 1
+17:26:12.073 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:26:12.074 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:26:12.074 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 2
+17:26:12.075 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:26:12.075 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:26:12.075 [http-nio-8082-exec-1] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:26:13.521 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key FROM seckill_products WHERE id = ? 
+17:26:13.522 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==> Parameters: 1(Long)
+17:26:13.522 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - <==      Total: 1
+17:26:13.523 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - ==>  Preparing: UPDATE seckill_products SET name = ?, count = ?, create_time = ?, is_deleted = ?, start_buy_time = ?, updated_time = ?, product_desc = ?, status = ?, product_period_key = ? WHERE id = ? 
+17:26:13.524 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - ==> Parameters: 娄靖彬(String), 2(Integer), 2023-07-06 17:02:13.0(Timestamp), 0(Integer), 2023-07-06 17:01:00.0(Timestamp), 2023-07-06 17:26:13.523(Timestamp), 娄家老大(String), 2(Integer), 198(String), 1(Long)
+17:26:13.525 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - <==    Updates: 1
+17:26:13.528 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:26:13.528 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:26:13.529 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 2
+17:26:13.529 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:26:13.529 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:26:13.529 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:26:21.826 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - ==>  Preparing: SELECT id, login_name, password, name, ip_range, create_time from seckill_admin where 1=1 
+17:26:21.826 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - ==> Parameters: 
+17:26:21.827 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - <==      Total: 0
+17:26:23.529 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - ==>  Preparing: SELECT id, login_name, password, name, ip_range, create_time from seckill_admin where 1=1 
+17:26:23.529 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - ==> Parameters: 
+17:26:23.530 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - <==      Total: 0
+17:26:24.970 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - ==>  Preparing: SELECT id, login_name, password, name, ip_range, create_time from seckill_admin where 1=1 
+17:26:24.970 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - ==> Parameters: 
+17:26:24.970 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - <==      Total: 0
+17:26:26.794 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:26:26.794 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:26:26.795 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 2
+17:26:26.796 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:26:26.796 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:26:26.797 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:34:58.118 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - ==>  Preparing: SELECT id, login_name, password, name, ip_range, create_time from seckill_admin where 1=1 
+17:34:58.118 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - ==> Parameters: 
+17:34:58.119 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - <==      Total: 1
+17:35:24.018 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - ==>  Preparing: SELECT id, login_name, password, name, ip_range, create_time from seckill_admin where 1=1 
+17:35:24.019 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - ==> Parameters: 
+17:35:24.019 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - <==      Total: 1
+17:37:31.827 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:37:31.827 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:37:31.828 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 2
+17:37:31.829 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:37:31.829 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:37:31.830 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:37:53.931 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 and product_period_key = ? 
+17:37:53.932 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list - ==> Parameters: 198(String)
+17:37:53.933 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list - <==      Total: 1
+17:37:53.936 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:37:53.936 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:37:53.937 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 2
+17:37:53.937 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:37:53.937 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:37:53.938 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:38:02.414 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key FROM seckill_products WHERE id = ? 
+17:38:02.414 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==> Parameters: 1(Long)
+17:38:02.415 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - <==      Total: 1
+17:38:11.306 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:38:11.307 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:38:11.307 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 2
+17:38:11.308 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:38:11.308 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:38:11.309 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:38:22.516 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 and product_period_key = ? 
+17:38:22.516 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list - ==> Parameters: 1(String)
+17:38:22.516 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list - <==      Total: 0
+17:38:22.517 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert - ==>  Preparing: INSERT INTO seckill_products ( id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+17:38:22.517 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert - ==> Parameters: null, 娄靖彬(String), 2(Integer), null, 2023-07-06 17:38:22.515(Timestamp), 0(Integer), 2023-07-06 17:38:00.016(Timestamp), null, 1(String), 2(Integer), null, 1(String)
+17:38:22.519 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert - <==    Updates: 1
+17:38:22.519 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert!selectKey - ==>  Preparing: select LAST_INSERT_ID() 
+17:38:22.519 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert!selectKey - ==> Parameters: 
+17:38:22.519 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert!selectKey - <==      Total: 1
+17:38:22.523 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:38:22.523 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:38:22.524 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 3
+17:38:22.524 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:38:22.524 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:38:22.525 [http-nio-8082-exec-2] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:38:38.218 [http-nio-8082-exec-10] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key FROM seckill_products WHERE id = ? 
+17:38:38.219 [http-nio-8082-exec-10] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==> Parameters: 3(Long)
+17:38:38.219 [http-nio-8082-exec-10] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - <==      Total: 1
+17:38:38.220 [http-nio-8082-exec-10] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - ==>  Preparing: UPDATE seckill_products SET name = ?, count = ?, create_time = ?, is_deleted = ?, start_buy_time = ?, updated_time = ?, product_desc = ?, status = ?, product_period_key = ? WHERE id = ? 
+17:38:38.221 [http-nio-8082-exec-10] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - ==> Parameters: 娄靖彬(String), 2(Integer), 2023-07-06 17:38:23.0(Timestamp), 0(Integer), 2023-07-06 17:38:00.0(Timestamp), 2023-07-06 17:38:38.22(Timestamp), 1(String), 1(Integer), 1(String), 3(Long)
+17:38:38.223 [http-nio-8082-exec-10] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - <==    Updates: 1
+17:38:38.225 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:38:38.225 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:38:38.226 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 3
+17:38:38.226 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:38:38.226 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:38:38.227 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:38:39.526 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key FROM seckill_products WHERE id = ? 
+17:38:39.527 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==> Parameters: 3(Long)
+17:38:39.528 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - <==      Total: 1
+17:38:39.528 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - ==>  Preparing: UPDATE seckill_products SET name = ?, count = ?, create_time = ?, is_deleted = ?, start_buy_time = ?, updated_time = ?, product_desc = ?, status = ?, product_period_key = ? WHERE id = ? 
+17:38:39.529 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - ==> Parameters: 娄靖彬(String), 2(Integer), 2023-07-06 17:38:23.0(Timestamp), 0(Integer), 2023-07-06 17:38:00.0(Timestamp), 2023-07-06 17:38:39.528(Timestamp), 1(String), 2(Integer), 1(String), 3(Long)
+17:38:39.530 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - <==    Updates: 1
+17:38:39.532 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:38:39.532 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:38:39.533 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 3
+17:38:39.533 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:38:39.533 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:38:39.534 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:38:43.010 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key FROM seckill_products WHERE id = ? 
+17:38:43.010 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==> Parameters: 2(Long)
+17:38:43.011 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - <==      Total: 1
+17:38:43.012 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - ==>  Preparing: UPDATE seckill_products SET name = ?, count = ?, create_time = ?, is_deleted = ?, start_buy_time = ?, updated_time = ?, product_desc = ?, status = ?, product_period_key = ? WHERE id = ? 
+17:38:43.012 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - ==> Parameters: 娄鹏(String), 2(Integer), 2023-07-06 17:25:32.0(Timestamp), 0(Integer), 2023-07-06 17:25:00.0(Timestamp), 2023-07-06 17:38:43.011(Timestamp), 娄靖彬plus(String), 1(Integer), 10086(String), 2(Long)
+17:38:43.014 [http-nio-8082-exec-5] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - <==    Updates: 1
+17:38:43.016 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:38:43.016 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:38:43.017 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 3
+17:38:43.017 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:38:43.017 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:38:43.018 [http-nio-8082-exec-7] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:38:48.415 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key FROM seckill_products WHERE id = ? 
+17:38:48.415 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - ==> Parameters: 3(Long)
+17:38:48.416 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.selectByPrimaryKey - <==      Total: 1
+17:38:48.416 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - ==>  Preparing: UPDATE seckill_products SET name = ?, count = ?, create_time = ?, is_deleted = ?, start_buy_time = ?, updated_time = ?, product_desc = ?, status = ?, product_period_key = ? WHERE id = ? 
+17:38:48.417 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - ==> Parameters: 娄靖彬(String), 2(Integer), 2023-07-06 17:38:23.0(Timestamp), 1(Integer), 2023-07-06 17:38:00.0(Timestamp), 2023-07-06 17:38:48.416(Timestamp), 1(String), 2(Integer), 1(String), 3(Long)
+17:38:48.418 [http-nio-8082-exec-6] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.updateByPrimaryKeySelective - <==    Updates: 1
+17:38:48.421 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:38:48.422 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:38:48.422 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 3
+17:38:48.423 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:38:48.423 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:38:48.424 [http-nio-8082-exec-8] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:43:47.567 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 and product_period_key = ? 
+17:43:47.568 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list - ==> Parameters: 2(String)
+17:43:47.569 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list - <==      Total: 0
+17:43:47.569 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert - ==>  Preparing: INSERT INTO seckill_products ( id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+17:43:47.570 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert - ==> Parameters: null, 娄pro(String), 1(Integer), null, 2023-07-06 17:43:47.567(Timestamp), 0(Integer), 2023-07-06 17:01:00.052(Timestamp), null, 娄靖彬pro(String), 2(Integer), null, 2(String)
+17:43:47.571 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert - <==    Updates: 1
+17:43:47.572 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert!selectKey - ==>  Preparing: select LAST_INSERT_ID() 
+17:43:47.572 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert!selectKey - ==> Parameters: 
+17:43:47.572 [http-nio-8082-exec-4] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.insert!selectKey - <==      Total: 1
+17:43:47.576 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==>  Preparing: SELECT id, name, count, saled, create_time, is_deleted, start_buy_time, updated_time, product_desc, status, memo, product_period_key from seckill_products where 1=1 limit ?, ? 
+17:43:47.576 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - ==> Parameters: 0(Integer), 20(Integer)
+17:43:47.577 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.list4Page - <==      Total: 4
+17:43:47.577 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==>  Preparing: SELECT count(1) from seckill_products where 1=1 
+17:43:47.578 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - ==> Parameters: 
+17:43:47.579 [http-nio-8082-exec-9] DEBUG nuc.edu.seckill.dao.SeckillProductsDao.count - <==      Total: 1
+17:43:51.642 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - ==>  Preparing: SELECT id, login_name, password, name, ip_range, create_time from seckill_admin where 1=1 
+17:43:51.642 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - ==> Parameters: 
+17:43:51.643 [http-nio-8082-exec-3] DEBUG nuc.edu.seckill.dao.SeckillAdminDao.list - <==      Total: 1
+17:53:34.298 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@c77a556: (connection has passed maxLifetime)
+17:53:36.433 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2b04aa8: (connection has passed maxLifetime)
+17:53:41.706 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@76f11906: (connection has passed maxLifetime)
+17:53:46.236 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7836e9a8: (connection has passed maxLifetime)
+17:53:46.752 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7c097276: (connection has passed maxLifetime)
+17:53:48.628 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@390be393: (connection has passed maxLifetime)
+17:53:50.273 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@47cce49d: (connection has passed maxLifetime)
+17:53:56.077 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5b66a900: (connection has passed maxLifetime)
+17:54:02.258 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@35789e52: (connection has passed maxLifetime)
+17:54:15.442 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7fc435a9: (connection has passed maxLifetime)
+18:22:47.437 [Thread-7] DEBUG io.lettuce.core.RedisClient - Initiate shutdown ([100, 100, MILLISECONDS], [100, 100, MILLISECONDS], {})
+18:22:47.457 [Thread-7] DEBUG io.lettuce.core.resource.DefaultClientResources - Initiate shutdown ([0, 2, SECONDS], [0, 2, SECONDS], {})
+18:22:47.457 [Thread-7] DEBUG io.lettuce.core.resource.DefaultEventLoopGroupProvider - Initiate shutdown ([0, 2, SECONDS], [0, 2, SECONDS], {})
+18:22:47.459 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:22:47.459 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@55f7ea06: (connection evicted)
+18:22:47.459 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5b300ec8: (connection evicted)
+18:22:47.459 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5f0f8176: (connection evicted)
+18:22:47.459 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1a0d04f3: (connection evicted)
+18:22:47.459 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@70c07a6e: (connection evicted)
+18:22:47.459 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2b5d7cf0: (connection evicted)
+18:22:47.459 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@87a5cdc: (connection evicted)
+18:22:47.459 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7a22fbbc: (connection evicted)
+18:22:47.459 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@942fd9c: (connection evicted)
+18:22:47.459 [HikariPool-1 connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@49b8aab8: (connection evicted)
+18:22:47.466 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

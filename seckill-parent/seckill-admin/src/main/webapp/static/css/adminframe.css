@@ -1,0 +1,32 @@
+#framecontentTop
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 88px;
+    width: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+#framecontentLeft
+{
+    position: absolute;
+    top: 88px;
+    left: 0;
+    height: 100%;
+    width: 187px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+#maincontent
+{
+    position: absolute;
+    left: 150px;/*Set left value to WidthOfLeftFrameDiv*/
+    top: 88px;/*Set top value to HeightOfTopFrameDiv*/
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    background: #fff;
+}

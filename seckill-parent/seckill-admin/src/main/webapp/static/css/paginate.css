@@ -1,0 +1,121 @@
+.jPaginate{
+    height:34px;
+    position:relative;
+    color:#a5a5a5;
+    font-size:small;
+    margin:10px 20px 0 0; float:right; display:inline;
+}
+.jPaginate a {
+    margin:0px 2px ;
+    padding:2px 8px;
+    display:inline-block; border:1px solid #B3B3B3; background:#fff;
+}
+.jPaginate a img{}
+.jPag-control-back{
+    position:absolute;
+    left:0px;
+    /*float:left;*/
+}
+.jPag-control-front{
+    position:absolute;
+    top:0px;
+    /*float:left;*/
+}
+.jPaginate span{
+    cursor:pointer;
+}
+ul.jPag-pages{
+    float:left;
+    list-style-type:none;
+    margin:0px 0px 0px 0px;
+    padding:0px;
+}
+ul.jPag-pages li{
+    display:inline;
+    float:left;
+    padding:0px;
+    margin:0px;
+}
+ul.jPag-pages li a{
+    float:left;
+    padding:2px 5px;
+}
+span.jPag-current{
+    cursor:default;
+    font-weight:normal;
+    line-height:15px;
+    height:18px;
+    padding:2px 5px;
+    margin:2px;
+    float:left;
+}
+ul.jPag-pages li span.jPag-previous,
+ul.jPag-pages li span.jPag-next,
+span.jPag-sprevious,
+span.jPag-snext,
+ul.jPag-pages li span.jPag-previous-img,
+ul.jPag-pages li span.jPag-next-img,
+span.jPag-sprevious-img,
+span.jPag-snext-img{
+    height:22px;
+    margin:2px;
+    float:left;
+    line-height:18px;
+}
+
+ul.jPag-pages li span.jPag-previous,
+ul.jPag-pages li span.jPag-previous-img{
+    margin:2px 0px 2px 2px;
+    font-size:12px;
+    font-weight:bold;
+    width:10px;
+
+}
+ul.jPag-pages li span.jPag-next,
+ul.jPag-pages li span.jPag-next-img{
+    margin:2px 2px 2px 0px;
+    font-size:12px;
+    font-weight:bold;
+    width:10px;
+}
+span.jPag-sprevious,
+span.jPag-sprevious-img{
+    margin:2px 0px 2px 2px;
+    font-size:18px;
+    width:15px;
+    text-align:right;
+}
+span.jPag-snext,
+span.jPag-snext-img{
+    margin:2px 2px 2px 0px;
+    font-size:18px;
+    width:15px;
+    text-align:right;
+}
+ul.jPag-pages li span.jPag-previous-img{
+    background:transparent url(./images/previous.png) no-repeat center right;
+}
+ul.jPag-pages li span.jPag-next-img{
+    background:transparent url(./images/next.png) no-repeat center left;
+}
+span.jPag-sprevious-img{
+    background:transparent url(./images/sprevious.png) no-repeat center right;
+}
+span.jPag-snext-img{
+    background:transparent url(./images/snext.png) no-repeat center left;
+}
+
+#pagelist {height:22px; color:#333; text-align:right;}
+#pagelist ul li { float:left; }
+#pagelist ul li a { cursor:pointer;display:inline-block; padding:0px 6px; text-align:center; border:1px solid #b3b3b3;}
+.sub123{ display:inline-block; width:46px; height:28px; background:url(./images/btn01.gif) 0 -157px; border:0; text-decoration:none; vertical-align:middle; }
+.input_li { width:24px; padding:0 4px; margin:0 3px; height:22px; border:1px solid #b3b3b3; line-height:22px; vertical-align:middle;}
+#pagelist ul li a:hover{ background:#fff; display:inline-block; padding:0px 6px;  text-align:center;  color:#044985; border:1px solid #044985; text-decoration:none}
+.jPaginate a:hover {background:#fff; display:inline-block; padding:2px 8px;  text-align:center; background:url(../images/pagebj.gif) repeat-x; color:#044985; border:1px solid #044985; text-decoration:none}
+#pagelist ul li a.current { color:#044985; display:inline-block; padding:0px 6px;  text-align:center; cursor:default;font-weight:normal;border:none;}
+#pagelist ul li.up a,#pagelist ul li.next a{ height:16px; _height:17px; padding-top:6px; _padding-top:5px; text-align:center;}
+#pagelist ul li.up a:hover,#pagelist ul li.next a:hover {display:inline-block; padding:0px 6px; height:16px; _height:17px; padding-top:6px; _padding-top:5px; text-align:center; border:1px solid #044985;}
+.ul_listz{ float:left;}
+.ul_listz li{ float:left; display:inline; margin:0 3px;}
+
+
